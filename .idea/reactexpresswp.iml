@@ -1,7 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/dumpster/includes" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/dumpster/languages" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/heroku/heroku-buildpack-php" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/johnpbloch/wordpress" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/johnpbloch/wordpress-core-installer" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/justinrainbow/json-schema" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/koodimonni/composer-dropin-installer" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/mustache/mustache" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/nb/oxymel" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/oscarotero/env" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/predis/predis" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/ramsey/array_column" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/rmccue/requests" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/roots/wp-password-bcrypt" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/seld/jsonlint" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/seld/phar-utils" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/squizlabs/php_codesniffer" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/config" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/debug" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/dependency-injection" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/autoload-splitter" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/cache-command" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/checksum-command" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/config-command" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/core-command" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/cron-command" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/db-command" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/entity-command" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/eval-command" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/export-command" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/extension-command" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/import-command" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/language-command" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/media-command" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/mustangostang-spyc" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/package-command" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/php-cli-tools" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/rewrite-command" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/role-command" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/scaffold-command" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/search-replace-command" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/server-command" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/shell-command" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/super-admin-command" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/widget-command" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/wp-cli" />
+      <excludeFolder url="file://$MODULE_DIR$/wordpress/vendor/wp-cli/wp-config-transformer" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <PhpCSConfiguration beautifier_path="$PROJECT_DIR$/wordpress/vendor/bin/phpcbf" tool_path="$PROJECT_DIR$/wordpress/vendor/bin/phpcs" />
+    </phpcs_settings>
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/wordpress/vendor/nb/oxymel" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/heroku/heroku-buildpack-php" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/predis/predis" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/seld/phar-utils" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/composer" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/roots/wp-password-bcrypt" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/koodimonni/composer-dropin-installer" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/mustache/mustache" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/dumpster/includes" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/dumpster/languages" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/rmccue/requests" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/checksum-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/config-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/core-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/cron-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/johnpbloch/wordpress" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/autoload-splitter" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/cache-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/extension-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/import-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/language-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/media-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/db-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/johnpbloch/wordpress-core-installer" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/entity-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/eval-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/export-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/role-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/scaffold-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/search-replace-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/server-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/oscarotero/env" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/mustangostang-spyc" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/package-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/ramsey/array_column" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/php-cli-tools" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/rewrite-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/wp-config-transformer" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/shell-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/super-admin-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/widget-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/wp-cli" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/vlucas/phpdotenv" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7" />
+</project>

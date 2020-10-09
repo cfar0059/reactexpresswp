@@ -19,17 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Created Component Contactform.  Fix implemented for formRouter to send response data.">
-      <change afterPath="$PROJECT_DIR$/wordpress" afterDir="false" />
+    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Added wordpress to app">
+      <change beforePath="$PROJECT_DIR$/.idea/reactexpresswp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/reactexpresswp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/form/Contactform.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/form/Contactform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/wordpress/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -40,9 +42,73 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/wordpress" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/wordpress/vendor/nb/oxymel" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/heroku/heroku-buildpack-php" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/predis/predis" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/seld/phar-utils" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/composer" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/roots/wp-password-bcrypt" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/koodimonni/composer-dropin-installer" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/mustache/mustache" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/dumpster/includes" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/dumpster/languages" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/rmccue/requests" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/checksum-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/config-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/core-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/cron-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/johnpbloch/wordpress" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/autoload-splitter" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/cache-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/extension-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/import-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/language-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/media-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/db-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/johnpbloch/wordpress-core-installer" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/entity-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/eval-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/export-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/role-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/scaffold-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/search-replace-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/server-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/oscarotero/env" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/mustangostang-spyc" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/package-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/ramsey/array_column" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/php-cli-tools" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/rewrite-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/wp-config-transformer" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/shell-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/super-admin-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/widget-command" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/wp-cli/wp-cli" />
+      <path value="$PROJECT_DIR$/wordpress/vendor/vlucas/phpdotenv" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1idieTyVBg9fxluRkKiADvsqriE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,6 +122,10 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\reactexpresswp\wordpress\web\app\plugins" />
+      <recent name="C:\dev\reactexpresswp\wordpress\web\app\mu-plugins" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\dev\reactexpresswp\client\src\components\customers" />
       <recent name="C:\dev\reactexpresswp" />
@@ -71,7 +141,8 @@
       <updated>1602243964295</updated>
       <workItem from="1602243965314" duration="195000" />
       <workItem from="1602244169139" duration="4134000" />
-      <workItem from="1602248446503" duration="1682000" />
+      <workItem from="1602248446503" duration="4212000" />
+      <workItem from="1602252809317" duration="751000" />
     </task>
     <task id="LOCAL-00001" summary="Added Client to App">
       <created>1602244732579</created>
@@ -94,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602249470225</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added wordpress to app">
+      <created>1602250149089</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602250149089</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,21 +194,26 @@
     <MESSAGE value="Added Client to App" />
     <MESSAGE value="Created form.js API Call" />
     <MESSAGE value="Created Component Contactform.  Fix implemented for formRouter to send response data." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Component Contactform.  Fix implemented for formRouter to send response data." />
+    <MESSAGE value="Added wordpress to app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added wordpress to app" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1697" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602246258986">
+    <state x="1697" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602252952053">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1697" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1602246258986" />
+    <state x="1697" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1602252952053" />
     <state x="1700" y="275" key="FileChooserDialogImpl" timestamp="1602248373634">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1700" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1602248373634" />
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602249471161">
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602251958627">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602249471161" />
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602251958627" />
+    <state x="1627" y="253" width="585" height="534" key="find.popup" timestamp="1602253131306">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1627" y="253" width="585" height="534" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1602253131306" />
     <state x="1576" y="242" key="run.anything.popup" timestamp="1602248871571">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
