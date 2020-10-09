@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Added wordpress to app">
-      <change beforePath="$PROJECT_DIR$/.idea/reactexpresswp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/reactexpresswp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +139,7 @@
       <workItem from="1602243965314" duration="195000" />
       <workItem from="1602244169139" duration="4134000" />
       <workItem from="1602248446503" duration="4212000" />
-      <workItem from="1602252809317" duration="751000" />
+      <workItem from="1602252809317" duration="2580000" />
     </task>
     <task id="LOCAL-00001" summary="Added Client to App">
       <created>1602244732579</created>
@@ -210,10 +207,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602251958627" />
-    <state x="1627" y="253" width="585" height="534" key="find.popup" timestamp="1602253131306">
+    <state x="1627" y="253" width="585" height="534" key="find.popup" timestamp="1602254207164">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1627" y="253" width="585" height="534" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1602253131306" />
+    <state x="1627" y="253" width="585" height="534" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1602254207164" />
     <state x="1576" y="242" key="run.anything.popup" timestamp="1602248871571">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
