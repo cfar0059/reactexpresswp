@@ -19,12 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Navbar - Removed Icon from props.">
+    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Added Background Image through CSS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/form/Contactform.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/form/Contactform.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +141,7 @@
       <workItem from="1602243965314" duration="195000" />
       <workItem from="1602244169139" duration="4134000" />
       <workItem from="1602248446503" duration="4212000" />
-      <workItem from="1602252809317" duration="6915000" />
+      <workItem from="1602252809317" duration="13050000" />
     </task>
     <task id="LOCAL-00001" summary="Added Client to App">
       <created>1602244732579</created>
@@ -194,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602257585848</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added Background Image through CSS">
+      <created>1602262304348</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602262304348</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,28 +225,37 @@
     <MESSAGE value="Changed request call to point at forms Custom Post Type." />
     <MESSAGE value="Created Navbar.  Removed unnecessary files." />
     <MESSAGE value="Navbar - Removed Icon from props." />
-    <option name="LAST_COMMIT_MESSAGE" value="Navbar - Removed Icon from props." />
+    <MESSAGE value="Added Background Image through CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Background Image through CSS" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1697" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602252952053">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1697" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1602252952053" />
+    <state x="496" y="86" key="DiffContextDialog" timestamp="1602265196370">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="496" y="86" key="DiffContextDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1602265196370" />
     <state x="1700" y="275" key="FileChooserDialogImpl" timestamp="1602255729379">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1700" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1602255729379" />
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602257587291">
+    <state x="1768" y="222" key="RollbackChangesDialog" timestamp="1602267790090">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602257587291" />
+    <state x="1768" y="222" key="RollbackChangesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1602267790090" />
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602262305434">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602262305434" />
     <state x="1627" y="253" width="585" height="534" key="find.popup" timestamp="1602254207164">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1627" y="253" width="585" height="534" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1602254207164" />
-    <state x="1576" y="242" key="run.anything.popup" timestamp="1602248871571">
+    <state x="1576" y="242" key="run.anything.popup" timestamp="1602264246878">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1576" y="242" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1602248871571" />
+    <state x="1576" y="242" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1602264246878" />
   </component>
 </project>
