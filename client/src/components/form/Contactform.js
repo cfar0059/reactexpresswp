@@ -1,28 +1,35 @@
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
+import axios from 'axios'
+import Spinner from '../layout/Spinner'
 
 class Contactform extends Component {
-    constructor() {
-        super();
-        this.state = {
-            content: []
-        }
+    state = {
+        form: {},
+        isLoaded: false
     }
 
-    //Fetch data from /api/forms
     componentDidMount() {
-        fetch('/api/forms')
-            .then(res => res.json())
-            .then(content => this.setState({content}, () =>
-                console.log('Content Fetched..', content
-                )));
+        axios.get(`/api/forms`)
+            .then(res => this.setState({
+                form: res.data,
+                isLoaded: true
+            }))
+            .catch(err => console.log(err))
     }
 
     render() {
-        return (
-            <div>
-                <h2></h2>
-            </div>
-        );
+        const {form, isLoaded} = this.state;
+        if (isLoaded) {
+            return (
+                <Fragment>
+                    <hr/>
+                    <h1>{form.title.rendered}</h1>
+                    <div dangerouslySetInnerHTML={{__html: form.content.rendered}}/>
+                </Fragment>
+            );
+        }
+        return <Spinner/>
+
     }
 }
 
