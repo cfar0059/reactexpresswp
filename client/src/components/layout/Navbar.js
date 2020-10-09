@@ -5,7 +5,7 @@ const Navbar = ({title}) => {
     return (
         <nav className="navbar navbar-light bg-light">
             <div className="container">
-                <span className="navbar-brand mb-0 h1">{title}</span>
+                <span className="nav-custom-color navbar-brand mb-0 h1">{title}</span>
                 <button className="navbar-toggler"
                         type="button"
                         data-toggle="collapse"

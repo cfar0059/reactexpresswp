@@ -20,7 +20,7 @@ class Contactform extends Component {
     render() {
         return (
             <div>
-                <h2>Form</h2>
+                <h2></h2>
             </div>
         );
     }
