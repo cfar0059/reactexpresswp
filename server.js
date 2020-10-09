@@ -1,8 +1,10 @@
 const express = require('express');
 
+//Run Express
 const app = express();
+const port = 5000;
 
-app.get('/api/customer', (req, res) => {
+app.get('/api/customers', (req, res) => {
     const customers = [
         {id: 1, firstName: 'John', lastName: 'Doe'},
         {id: 2, firstName: 'Carl', lastName: 'Farrugia'},
@@ -12,6 +14,9 @@ app.get('/api/customer', (req, res) => {
     res.json(customers);
 })
 
-const port = 5000;
+//Routes
+const formRouter = require('./src/routes/form')
+app.use('/', formRouter);
 
+//listen on port number ->
 app.listen(port, () => console.log(`Server started on port ${port}`))
