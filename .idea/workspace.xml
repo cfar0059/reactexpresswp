@@ -19,8 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Added wordpress to app">
-      <change beforePath="$PROJECT_DIR$/src/routes/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/form.js" afterDir="false" />
+    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Changed request call to point at forms Custom Post Type.">
+      <change afterPath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +146,7 @@
       <workItem from="1602243965314" duration="195000" />
       <workItem from="1602244169139" duration="4134000" />
       <workItem from="1602248446503" duration="4212000" />
-      <workItem from="1602252809317" duration="2805000" />
+      <workItem from="1602252809317" duration="4684000" />
     </task>
     <task id="LOCAL-00001" summary="Added Client to App">
       <created>1602244732579</created>
@@ -169,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602250149089</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changed request call to point at forms Custom Post Type.">
+      <created>1602255680194</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602255680194</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,21 +206,22 @@
     <MESSAGE value="Created form.js API Call" />
     <MESSAGE value="Created Component Contactform.  Fix implemented for formRouter to send response data." />
     <MESSAGE value="Added wordpress to app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added wordpress to app" />
+    <MESSAGE value="Changed request call to point at forms Custom Post Type." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed request call to point at forms Custom Post Type." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1697" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602252952053">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1697" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1602252952053" />
-    <state x="1700" y="275" key="FileChooserDialogImpl" timestamp="1602248373634">
+    <state x="1700" y="275" key="FileChooserDialogImpl" timestamp="1602255729379">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1700" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1602248373634" />
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602251958627">
+    <state x="1700" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1602255729379" />
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602255702984">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602251958627" />
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602255702984" />
     <state x="1627" y="253" width="585" height="534" key="find.popup" timestamp="1602254207164">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
