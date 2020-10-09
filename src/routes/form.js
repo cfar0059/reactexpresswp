@@ -2,10 +2,12 @@ const express = require('express')
 const formRouter = express.Router()
 const axios = require('axios')
 
-formRouter.get('', async (req, res) => {
+formRouter.get('/api/forms', (req, res) => {
     try {
-        const formAPI = await axios.get(`https://raketech.herokuapp.com/wp-json/wp/v2/posts/`)
-        res.json(formAPI);
+        axios.get(`https://raketech.herokuapp.com/wp-json/wp/v2/posts/`)
+            .then(response => {
+                res.send(response.data)
+            })
     } catch (err) {
         //If error is caught handle error response accordingly
         if (err.response) {

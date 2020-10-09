@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
-import Customers from './components/customers/customers'
+// import Customers from './components/customers/customers'
+import Contactform from './components/form/Contactform'
 
 function App() {
     return (
         <div className="App">
-            <Customers/>
+            {/*<Customers/>*/}
+            <Contactform/>
         </div>
     );
 }
