@@ -8,6 +8,7 @@ class Contactform extends Component {
         }
     }
 
+    //Fetch data from /api/forms
     componentDidMount() {
         fetch('/api/forms')
             .then(res => res.json())
