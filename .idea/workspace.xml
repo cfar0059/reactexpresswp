@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Styling: Contact Form Title, Contact Form Inputs and Submit button">
+    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Styling: More styling to Form Title">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form/ContactFormContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/ContactFormContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form/ContactFormTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/ContactFormTitle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -328,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602339274088</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Styling: More styling to Form Title">
+      <created>1602339877515</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1602339877515</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +377,8 @@
     <MESSAGE value="styling done to input fields." />
     <MESSAGE value="changed number of rows for message field" />
     <MESSAGE value="Styling: Contact Form Title, Contact Form Inputs and Submit button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Styling: Contact Form Title, Contact Form Inputs and Submit button" />
+    <MESSAGE value="Styling: More styling to Form Title" />
+    <option name="LAST_COMMIT_MESSAGE" value="Styling: More styling to Form Title" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1697" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602252952053">
@@ -394,10 +401,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="596" y="0" key="SettingsEditor.inPresentationMode/0.0.2560.1040@0.0.2560.1040" timestamp="1602317762719" />
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602339275396">
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602339878808">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602339275396" />
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602339878808" />
     <state x="1627" y="253" width="585" height="534" key="find.popup" timestamp="1602327032661">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
