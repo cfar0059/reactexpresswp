@@ -49,14 +49,9 @@ const ContactForm = () => {
 
     return (
         <div>
-            {result && (
-                <p className={`${result.success ? 'success' : 'error'}`}>
-                    {result.message}
-                </p>
-            )}
             <form onSubmit={sendEmail}>
                 <Form.Group controlId="name">
-                    <Form.Label className="float-left">Your Name</Form.Label>
+                    <Form.Label className="float-left form-field-opacity">Your Name</Form.Label>
                     <Form.Control
                         type="text"
                         name="name"
@@ -65,7 +60,7 @@ const ContactForm = () => {
                     />
                 </Form.Group>
                 <Form.Group controlId="email">
-                    <Form.Label className="float-left">Email</Form.Label>
+                    <Form.Label className="float-left form-field-opacity">Email</Form.Label>
                     <Form.Control
                         type="text"
                         name="email"
@@ -74,7 +69,7 @@ const ContactForm = () => {
                     />
                 </Form.Group>
                 <Form.Group controlId="subject">
-                    <Form.Label className="float-left">Subject</Form.Label>
+                    <Form.Label className="float-left form-field-opacity">Subject</Form.Label>
                     <Form.Control
                         type="text"
                         name="subject"
@@ -83,7 +78,7 @@ const ContactForm = () => {
                     />
                 </Form.Group>
                 <Form.Group controlId="message">
-                    <Form.Label className="float-left">Message</Form.Label>
+                    <Form.Label className="float-left form-field-opacity">Message</Form.Label>
                     <Form.Control
                         as="textarea"
                         name="message"
@@ -92,10 +87,15 @@ const ContactForm = () => {
                         onChange={onInputChange}
                     />
                 </Form.Group>
-                <Button className="float-left" variant="primary" type="submit">
-                    Contact
+                <Button className="float-left btn-success btn-spacing" variant="primary" type="submit">
+                    CONTACT
                 </Button>
             </form>
+            {result && (
+                <p className={`${result.success ? 'success' : 'error'}`}>
+                    {result.message}
+                </p>
+            )}
         </div>
     );
 };

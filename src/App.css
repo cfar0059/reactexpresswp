@@ -72,3 +72,20 @@ Navbar
 nav.navbar .nav-custom-color{
   color: #4a4a4a;
 }
+
+/**
+Form
+ */
+.btn-spacing{
+  letter-spacing: 3px;
+}
+
+.form-field-opacity{
+  opacity: 0.7;
+}
+
+form .form-group .form-control{
+  background-color: rgb(68 68 107 / 50%) !important;
+  border-color: rgb(212 212 212 / 50%) !important;
+}
+
