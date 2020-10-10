@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Form, Button} from 'react-bootstrap';
 import axios from 'axios';
 
-const Contactform = () => {
+const ContactForm = () => {
     const [state, setState] = useState({
         name: '',
         email: '',
@@ -49,6 +49,11 @@ const Contactform = () => {
 
     return (
         <div>
+            {result && (
+                <p className={`${result.success ? 'success' : 'error'}`}>
+                    {result.message}
+                </p>
+            )}
             <form onSubmit={sendEmail}>
                 <Form.Group controlId="name">
                     <Form.Label className="float-left">Your Name</Form.Label>
@@ -95,4 +100,4 @@ const Contactform = () => {
     );
 };
 
-export default Contactform;
+export default ContactForm;

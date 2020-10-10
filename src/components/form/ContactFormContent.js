@@ -2,24 +2,20 @@ import React, {Fragment} from 'react';
 import Spinner from '../layout/Spinner'
 import PropTypes from 'prop-types';
 
-const Contactformtitle = ({form, isLoaded}) => {
+const ContactFormContent = ({form, isLoaded}) => {
         if (isLoaded) {
             return (
                 <Fragment>
-                    <h1 style={spacing} className="float-left mt-5">{form.title.rendered}</h1>
+                    <div className="text-left" dangerouslySetInnerHTML={{__html: form.content.rendered}}/>
                 </Fragment>
             );
         }
         return <Spinner/>
 }
 
-const spacing = {
-    letterSpacing : "5px"
-}
-
-Contactformtitle.propTypes = {
+ContactFormContent.propTypes = {
     form: PropTypes.object.isRequired,
     isLoaded: PropTypes.bool.isRequired
 }
 
-export default Contactformtitle;
+export default ContactFormContent;

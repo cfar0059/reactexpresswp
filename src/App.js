@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from './components/layout/Navbar'
-import Contactformtitle from './components/form/Contactformtitle'
-import Contactform from './components/form/Contactform'
-import Contactformcontent from './components/form/Contactformcontent'
+import ContactFormTitle from './components/form/ContactFormTitle'
+import ContactForm from './components/form/ContactForm'
+import ContactFormContent from './components/form/ContactFormContent'
 import axios from "axios";
 
 class App extends Component {
@@ -34,15 +34,15 @@ class App extends Component {
                 <div className="content container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <Contactformtitle isLoaded={this.state.isLoaded} form={this.state.form}/>
+                            <ContactFormTitle isLoaded={this.state.isLoaded} form={this.state.form}/>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-lg-6 col-md-12">
-                            <Contactform/>
+                            <ContactForm/>
                         </div>
                         <div className="col-lg-6 col-md-12">
-                            <Contactformcontent className="col" isLoaded={this.state.isLoaded} form={this.state.form}/>
+                            <ContactFormContent className="col" isLoaded={this.state.isLoaded} form={this.state.form}/>
                         </div>
                     </div>
                 </div>

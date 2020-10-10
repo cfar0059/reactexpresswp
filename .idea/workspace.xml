@@ -19,13 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Restructuring of Code due to CORS error.  Nodejs and react now share same port.">
+    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Installation and set up of dotenv and nodemailer.">
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/routes/sendForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/sendForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/Contactform.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/Contactformcontent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/ContactFormContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/Contactformtitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/ContactFormTitle.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +157,7 @@
       <workItem from="1602316645676" duration="1118000" />
       <workItem from="1602317772774" duration="9331000" />
       <workItem from="1602329064182" duration="898000" />
-      <workItem from="1602330012298" duration="2271000" />
+      <workItem from="1602330012298" duration="6296000" />
     </task>
     <task id="LOCAL-00001" summary="Added Client to App">
       <created>1602244732579</created>
@@ -297,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602331607255</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Installation and set up of dotenv and nodemailer.">
+      <created>1602332704284</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1602332704284</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +345,8 @@
     <MESSAGE value="Set up a route for email form to send data" />
     <MESSAGE value="Set up a post request using axios and passing form data as a JSON object." />
     <MESSAGE value="Restructuring of Code due to CORS error.  Nodejs and react now share same port." />
-    <option name="LAST_COMMIT_MESSAGE" value="Restructuring of Code due to CORS error.  Nodejs and react now share same port." />
+    <MESSAGE value="Installation and set up of dotenv and nodemailer." />
+    <option name="LAST_COMMIT_MESSAGE" value="Installation and set up of dotenv and nodemailer." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1697" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602252952053">
@@ -359,10 +369,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="596" y="0" key="SettingsEditor.inPresentationMode/0.0.2560.1040@0.0.2560.1040" timestamp="1602317762719" />
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602331609162">
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602332705375">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602331609162" />
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602332705375" />
     <state x="1627" y="253" width="585" height="534" key="find.popup" timestamp="1602327032661">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

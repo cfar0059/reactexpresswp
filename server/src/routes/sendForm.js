@@ -1,14 +1,12 @@
 const express = require('express')
 const sendFormRouter = express.Router()
-const transporter = require('./config');
-const dotenv = require('dotenv');
-dotenv.config();
+const transporter = require('../../config');
 
 sendFormRouter.post('/api/send', (req, res) => {
     try {
         const mailOptions = {
             from: req.body.email,
-            to: process.env.email,
+            to: 'dustin10@ethereal.email',
             subject: req.body.subject,
             html: req.body.message
         };

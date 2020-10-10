@@ -1,12 +1,12 @@
 const nodemailer = require('nodemailer');
-const dotenv = require('dotenv');
-dotenv.config();
+require("dotenv").config({ path: "../../.env" })
 
-var transporter = nodemailer.createTransport({
-    service: 'gmail',
+const transporter = nodemailer.createTransport({
+    host: 'smtp.ethereal.email',
+    port: 587,
     auth: {
-        user: process.env.email, // your email address to send email from
-        pass: process.env.password // your gmail account password
+        user: 'dustin10@ethereal.email',
+        pass: 'mRY7qmQwZ7K8x6JNbw'
     }
 });
 
