@@ -3,8 +3,8 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from './components/layout/Navbar'
 import Contactformtitle from './components/form/Contactformtitle'
-import Contactform from './components/form/Contactformtitle'
-import Contactformcontent from './components/form/Contactformtitle'
+import Contactform from './components/form/Contactform'
+import Contactformcontent from './components/form/Contactformcontent'
 import axios from "axios";
 
 class App extends Component {
@@ -39,7 +39,7 @@ class App extends Component {
                     </div>
                     <div className="row">
                         <div className="col-lg-6 col-md-12">
-                            <Contactform isLoaded={this.state.isLoaded} form={this.state.form}/>
+                            <Contactform/>
                         </div>
                         <div className="col-lg-6 col-md-12">
                             <Contactformcontent className="col" isLoaded={this.state.isLoaded} form={this.state.form}/>
