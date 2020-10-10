@@ -7,8 +7,17 @@ const ContactForm = () => {
         name: '',
         email: '',
         subject: '',
-        message: ''
+        message: '',
+        errors: {
+            name: '',
+            email: '',
+            subject: '',
+            message: '',
+        }
     });
+
+    const validEmailRegex =
+        RegExp(/\S+@\S+\.\S+/);
 
     const [result, setResult] = useState(null);
 
@@ -21,16 +30,21 @@ const ContactForm = () => {
     const sendEmail = event => {
         event.preventDefault();
         console.log(state);
-        axios
-            .post('/api/send', {...state})
-            .then(res => {
-                setResult(res.data);
-                console.log(res.data);
-                setState({name: '', email: '', subject: '', message: ''});
-            })
-            .catch(() => {
-                setResult({success: false, message: 'Something went wrong. Try again later'});
-            });
+
+        if (validateForm(state.errors)) {
+            axios
+                .post('/api/send', {...state})
+                .then(res => {
+                    setResult(res.data);
+                    console.log(res.data);
+                    setState({name: '', email: '', subject: '', message: ''});
+                })
+                .catch(() => {
+                    setResult({success: false, message: 'Something went wrong. Try again later'});
+                });
+        } else {
+            console.error('Invalid Form')
+        }
 
     };
 
@@ -39,13 +53,44 @@ const ContactForm = () => {
      * @param event
      */
     const onInputChange = event => {
+        event.preventDefault();
+
         const {name, value} = event.target;
+        const errors = state.errors;
+
+        switch (name) {
+            case 'name':
+                errors.name =
+                    !value.match(/^[a-zA-Z ]+$/)
+                        ? 'Only letters are accepted!'
+                        : '';
+                break;
+            case 'email':
+                errors.email =
+                    validEmailRegex.test(value)
+                        ? ''
+                        : 'Email is not valid!';
+                break;
+            default:
+                break;
+        }
 
         setState({
             ...state,
-            [name]: value
+            errors, [name]: value
         });
+
+        console.log(errors);
     };
+
+    const validateForm = (errors) => {
+        let valid = true;
+        Object.values(errors).forEach(
+            // if we have an error string set valid to false
+            (val) => val.length > 0 && (valid = false)
+        );
+        return valid;
+    }
 
     return (
         <div>
@@ -63,6 +108,8 @@ const ContactForm = () => {
                         value={state.name}
                         onChange={onInputChange}
                     />
+                    {/*{state.errors.name.length > 0 &&*/}
+                    {/*<span style={inputError}>{state.errors.name}</span>}*/}
                 </Form.Group>
                 <Form.Group controlId="email">
                     <Form.Label className="float-left form-field-opacity">Email</Form.Label>
@@ -72,6 +119,8 @@ const ContactForm = () => {
                         value={state.email}
                         onChange={onInputChange}
                     />
+                    {/*{state.errors.email.length > 0 &&*/}
+                    {/*<span style={inputError}>{state.errors.email}</span>}*/}
                 </Form.Group>
                 <Form.Group controlId="subject">
                     <Form.Label className="float-left form-field-opacity">Subject</Form.Label>
@@ -104,6 +153,16 @@ const resultStyle = {
     fontSize: '15px',
     textAlign: 'left',
     marginTop: '15px'
+}
+
+const inputError = {
+    marginTop: '1em',
+    textAlign: 'left',
+    fontWeight: 'bold',
+    float: 'left',
+    backgroundColor: '#d24b4b',
+    fontSize: '14px',
+    padding: '4px'
 }
 
 export default ContactForm;

@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Styling: More styling to Form Title">
+    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Styling: To Result of Form.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/form/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/ContactForm.js" afterDir="false" />
     </list>
@@ -333,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602339877515</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Styling: To Result of Form.">
+      <created>1602342806801</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1602342806801</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +359,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added Client to App" />
     <MESSAGE value="Created form.js API Call" />
     <MESSAGE value="Created Component Contactform.  Fix implemented for formRouter to send response data." />
     <MESSAGE value="Added wordpress to app" />
@@ -377,7 +383,8 @@
     <MESSAGE value="changed number of rows for message field" />
     <MESSAGE value="Styling: Contact Form Title, Contact Form Inputs and Submit button" />
     <MESSAGE value="Styling: More styling to Form Title" />
-    <option name="LAST_COMMIT_MESSAGE" value="Styling: More styling to Form Title" />
+    <MESSAGE value="Styling: To Result of Form." />
+    <option name="LAST_COMMIT_MESSAGE" value="Styling: To Result of Form." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1697" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602252952053">
@@ -400,14 +407,18 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="596" y="0" key="SettingsEditor.inPresentationMode/0.0.2560.1040@0.0.2560.1040" timestamp="1602317762719" />
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602339878808">
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602342810201">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602339878808" />
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602342810201" />
     <state x="1627" y="253" width="585" height="534" key="find.popup" timestamp="1602327032661">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1627" y="253" width="585" height="534" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1602327032661" />
+    <state x="1700" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1602346457335">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1700" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1602346457335" />
     <state x="1576" y="242" key="run.anything.popup" timestamp="1602264246878">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
