@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Contact Form data pulled from /api/forms and outputted through HTML">
-      <change afterPath="$PROJECT_DIR$/client/src/components/layout/spinnebkr.gif" afterDir="false" />
+    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Updated spinner.gif to show transparency">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Spinner.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layout/Spinner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/layout/spinner.gif" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layout/spinner.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/form/Contactform.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/form/Contactform.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,8 +115,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/components/layout" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../github-finder" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -144,7 +145,8 @@
       <workItem from="1602244169139" duration="4134000" />
       <workItem from="1602248446503" duration="4212000" />
       <workItem from="1602252809317" duration="13837000" />
-      <workItem from="1602316645676" duration="638000" />
+      <workItem from="1602316645676" duration="1118000" />
+      <workItem from="1602317772774" duration="482000" />
     </task>
     <task id="LOCAL-00001" summary="Added Client to App">
       <created>1602244732579</created>
@@ -216,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602269066480</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Updated spinner.gif to show transparency">
+      <created>1602317546455</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602317546455</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,29 +254,34 @@
     <MESSAGE value="Added Background Image through CSS" />
     <MESSAGE value="Added Spinner" />
     <MESSAGE value="Contact Form data pulled from /api/forms and outputted through HTML" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contact Form data pulled from /api/forms and outputted through HTML" />
+    <MESSAGE value="Updated spinner.gif to show transparency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated spinner.gif to show transparency" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1697" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602252952053">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1697" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1602252952053" />
-    <state x="496" y="86" key="DiffContextDialog" timestamp="1602265196370">
+    <state x="496" y="86" key="DiffContextDialog" timestamp="1602318068957">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="496" y="86" key="DiffContextDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1602265196370" />
-    <state x="1700" y="275" key="FileChooserDialogImpl" timestamp="1602255729379">
+    <state x="496" y="86" key="DiffContextDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1602318068957" />
+    <state x="1700" y="275" key="FileChooserDialogImpl" timestamp="1602317786957">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1700" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1602255729379" />
-    <state x="1768" y="222" key="RollbackChangesDialog" timestamp="1602268680138">
+    <state x="1700" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1602317786957" />
+    <state x="1768" y="222" key="RollbackChangesDialog" timestamp="1602318069726">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1768" y="222" key="RollbackChangesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1602268680138" />
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602269067868">
+    <state x="1768" y="222" key="RollbackChangesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1602318069726" />
+    <state x="596" y="0" key="SettingsEditor.inPresentationMode" timestamp="1602317762719">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602269067868" />
+    <state x="596" y="0" key="SettingsEditor.inPresentationMode/0.0.2560.1040@0.0.2560.1040" timestamp="1602317762719" />
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602317551404">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602317551404" />
     <state x="1627" y="253" width="585" height="534" key="find.popup" timestamp="1602254207164">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -276,5 +290,9 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1576" y="242" key="run.anything.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1602264246878" />
+    <state x="1583" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1602318101478">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1583" y="229" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1602318101478" />
   </component>
 </project>

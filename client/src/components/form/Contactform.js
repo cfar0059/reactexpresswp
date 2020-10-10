@@ -1,36 +1,21 @@
-import React, {Component, Fragment} from 'react';
-import axios from 'axios'
+import React, {Fragment} from 'react';
 import Spinner from '../layout/Spinner'
+import PropTypes from 'prop-types';
 
-class Contactform extends Component {
-    state = {
-        form: {},
-        isLoaded: false
-    }
-
-    componentDidMount() {
-        axios.get(`/api/forms`)
-            .then(res => this.setState({
-                form: res.data,
-                isLoaded: true
-            }))
-            .catch(err => console.log(err))
-    }
-
-    render() {
-        const {form, isLoaded} = this.state;
+const Contactform = ({form, isLoaded}) => {
         if (isLoaded) {
             return (
                 <Fragment>
-                    <hr/>
                     <h1>{form.title.rendered}</h1>
-                    <div dangerouslySetInnerHTML={{__html: form.content.rendered}}/>
                 </Fragment>
             );
         }
         return <Spinner/>
+}
 
-    }
+Contactform.propTypes = {
+    form: PropTypes.object.isRequired,
+    isLoaded: PropTypes.bool.isRequired
 }
 
 export default Contactform;
