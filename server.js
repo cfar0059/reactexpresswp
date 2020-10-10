@@ -16,9 +16,8 @@ app.get('/api/customers', (req, res) => {
 
 //Routes
 const importformRouter = require('./src/routes/importForm')
-app.use('/', importformRouter);
 const sendFormRouter = require('./src/routes/sendForm')
-app.use('/send', sendFormRouter);
+app.use('/', [importformRouter, sendFormRouter]);
 
 //listen on port number ->
 app.listen(port, () => console.log(`Server started on port ${port}`))

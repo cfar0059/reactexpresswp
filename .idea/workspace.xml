@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Contactform rendered to screen using react-bootstrap and bootsrap for styling">
-      <change afterPath="$PROJECT_DIR$/src/routes/importForm.js" afterDir="false" />
+    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Set up a route for email form to send data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/form/Contactform.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/form/Contactform.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/sendForm.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +148,7 @@
       <workItem from="1602248446503" duration="4212000" />
       <workItem from="1602252809317" duration="13837000" />
       <workItem from="1602316645676" duration="1118000" />
-      <workItem from="1602317772774" duration="5603000" />
+      <workItem from="1602317772774" duration="6170000" />
     </task>
     <task id="LOCAL-00001" summary="Added Client to App">
       <created>1602244732579</created>
@@ -270,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602324036303</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Set up a route for email form to send data">
+      <created>1602325288741</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1602325288741</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +312,8 @@
     <MESSAGE value="Components have been linked with correct component path." />
     <MESSAGE value="Styling done to Font and Imported Content" />
     <MESSAGE value="Contactform rendered to screen using react-bootstrap and bootsrap for styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contactform rendered to screen using react-bootstrap and bootsrap for styling" />
+    <MESSAGE value="Set up a route for email form to send data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set up a route for email form to send data" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1697" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602252952053">
@@ -329,10 +336,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="596" y="0" key="SettingsEditor.inPresentationMode/0.0.2560.1040@0.0.2560.1040" timestamp="1602317762719" />
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602324037357">
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602325290003">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602324037357" />
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602325290003" />
     <state x="1627" y="253" width="585" height="534" key="find.popup" timestamp="1602254207164">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
