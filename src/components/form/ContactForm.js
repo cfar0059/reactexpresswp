@@ -83,11 +83,11 @@ const ContactForm = () => {
                         as="textarea"
                         name="message"
                         value={state.message}
-                        rows="5"
+                        rows="7"
                         onChange={onInputChange}
                     />
                 </Form.Group>
-                <Button className="float-left btn-success btn-spacing" variant="primary" type="submit">
+                <Button className="float-left btn-success btn-custom" variant="primary" type="submit">
                     CONTACT
                 </Button>
             </form>

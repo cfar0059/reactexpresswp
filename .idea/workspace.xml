@@ -19,8 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="styling done to input fields.">
+    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="changed number of rows for message field">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/form/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/ContactFormTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/ContactFormTitle.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602338279432</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="changed number of rows for message field">
+      <created>1602338297230</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1602338297230</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +363,8 @@
     <MESSAGE value="Restructuring of Code due to CORS error.  Nodejs and react now share same port." />
     <MESSAGE value="Installation and set up of dotenv and nodemailer." />
     <MESSAGE value="styling done to input fields." />
-    <option name="LAST_COMMIT_MESSAGE" value="styling done to input fields." />
+    <MESSAGE value="changed number of rows for message field" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed number of rows for message field" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1697" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602252952053">
