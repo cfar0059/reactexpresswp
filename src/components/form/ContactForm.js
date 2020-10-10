@@ -49,6 +49,11 @@ const ContactForm = () => {
 
     return (
         <div>
+            {result && (
+                <p className={`${result.success ? 'success' : 'error'}`} style={resultStyle}>
+                    {result.message}
+                </p>
+            )}
             <form onSubmit={sendEmail}>
                 <Form.Group controlId="name">
                     <Form.Label className="float-left form-field-opacity">Your Name</Form.Label>
@@ -91,13 +96,14 @@ const ContactForm = () => {
                     CONTACT
                 </Button>
             </form>
-            {result && (
-                <p className={`${result.success ? 'success' : 'error'}`}>
-                    {result.message}
-                </p>
-            )}
         </div>
     );
 };
+
+const resultStyle = {
+    fontSize: '15px',
+    textAlign: 'left',
+    marginTop: '15px'
+}
 
 export default ContactForm;
