@@ -2,7 +2,7 @@ import React, {Fragment} from 'react';
 import Spinner from '../layout/Spinner'
 import PropTypes from 'prop-types';
 
-const Contactform = ({form, isLoaded}) => {
+const Contactformcontent = ({form, isLoaded}) => {
         if (isLoaded) {
             return (
                 <Fragment>
@@ -13,9 +13,9 @@ const Contactform = ({form, isLoaded}) => {
         return <Spinner/>
 }
 
-Contactform.propTypes = {
+Contactformcontent.propTypes = {
     form: PropTypes.object.isRequired,
     isLoaded: PropTypes.bool.isRequired
 }
 
-export default Contactform;
+export default Contactformcontent;

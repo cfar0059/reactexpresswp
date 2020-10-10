@@ -1,8 +1,10 @@
 import React, {Component} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Contactform from './components/form/Contactform'
 import Navbar from './components/layout/Navbar'
+import Contactformtitle from './components/form/Contactformtitle'
+import Contactform from './components/form/Contactformtitle'
+import Contactformcontent from './components/form/Contactformtitle'
 import axios from "axios";
 
 class App extends Component {
@@ -11,6 +13,10 @@ class App extends Component {
         isLoaded: false
     }
 
+    /**
+     * Call /api/forms after component output has been rendered
+     * Set state for form and isLoaded
+     */
     componentDidMount() {
         axios.get(`/api/forms`)
             .then(res => this.setState({
@@ -26,7 +32,19 @@ class App extends Component {
             <div className="App">
                 <Navbar/>
                 <div className="content container">
-                    <Contactform isLoaded={this.state.isLoaded} form={this.state.form} />
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <Contactformtitle isLoaded={this.state.isLoaded} form={this.state.form}/>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-lg-6 col-md-12">
+                            <Contactform isLoaded={this.state.isLoaded} form={this.state.form}/>
+                        </div>
+                        <div className="col-lg-6 col-md-12">
+                            <Contactformcontent className="col" isLoaded={this.state.isLoaded} form={this.state.form}/>
+                        </div>
+                    </div>
                 </div>
             </div>
         );

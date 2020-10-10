@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="componentDidMount() hook has been moved to App to allow for better segregation of Components">
+    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Styling: color and fontfamily for fonts.">
+      <change afterPath="$PROJECT_DIR$/client/src/components/form/Contactformcontent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/form/Contactformtitle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/form/Contactform.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/form/Contactform.js" afterDir="false" />
     </list>
@@ -117,21 +118,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../github-finder" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/components/form" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\dev\reactexpresswp\client\src\components\layout" />
-      <recent name="C:\dev\reactexpresswp\client\src\components\customers" />
-      <recent name="C:\dev\reactexpresswp" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\dev\reactexpresswp\wordpress\web\app\plugins" />
       <recent name="C:\dev\reactexpresswp\wordpress\web\app\mu-plugins" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\reactexpresswp\client\src\components\form" />
+      <recent name="C:\dev\reactexpresswp\client\src\components\layout" />
+      <recent name="C:\dev\reactexpresswp\client\src\components\customers" />
+      <recent name="C:\dev\reactexpresswp" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -147,7 +149,7 @@
       <workItem from="1602248446503" duration="4212000" />
       <workItem from="1602252809317" duration="13837000" />
       <workItem from="1602316645676" duration="1118000" />
-      <workItem from="1602317772774" duration="1359000" />
+      <workItem from="1602317772774" duration="2528000" />
     </task>
     <task id="LOCAL-00001" summary="Added Client to App">
       <created>1602244732579</created>
@@ -233,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602318384286</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Styling: color and fontfamily for fonts.">
+      <created>1602319184789</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1602319184789</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +273,8 @@
     <MESSAGE value="Contact Form data pulled from /api/forms and outputted through HTML" />
     <MESSAGE value="Updated spinner.gif to show transparency" />
     <MESSAGE value="componentDidMount() hook has been moved to App to allow for better segregation of Components" />
-    <option name="LAST_COMMIT_MESSAGE" value="componentDidMount() hook has been moved to App to allow for better segregation of Components" />
+    <MESSAGE value="Styling: color and fontfamily for fonts." />
+    <option name="LAST_COMMIT_MESSAGE" value="Styling: color and fontfamily for fonts." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1697" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602252952053">
@@ -287,10 +297,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="596" y="0" key="SettingsEditor.inPresentationMode/0.0.2560.1040@0.0.2560.1040" timestamp="1602317762719" />
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602318385644">
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602319185993">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602318385644" />
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602319185993" />
     <state x="1627" y="253" width="585" height="534" key="find.popup" timestamp="1602254207164">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
