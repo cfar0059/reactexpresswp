@@ -6,11 +6,15 @@ const Contactformtitle = ({form, isLoaded}) => {
         if (isLoaded) {
             return (
                 <Fragment>
-                    <h1 className="float-left mt-5 ">{form.title.rendered}</h1>
+                    <h1 style={spacing} className="float-left mt-5">{form.title.rendered}</h1>
                 </Fragment>
             );
         }
         return <Spinner/>
+}
+
+const spacing = {
+    letterSpacing : "5px"
 }
 
 Contactformtitle.propTypes = {

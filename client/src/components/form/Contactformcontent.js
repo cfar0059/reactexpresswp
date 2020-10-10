@@ -6,7 +6,7 @@ const Contactformcontent = ({form, isLoaded}) => {
         if (isLoaded) {
             return (
                 <Fragment>
-                    <h1 className="mt-5 ">{form.title.rendered}</h1>
+                    <div className="text-left" dangerouslySetInnerHTML={{__html: form.content.rendered}}/>
                 </Fragment>
             );
         }
