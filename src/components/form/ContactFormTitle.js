@@ -6,14 +6,14 @@ const ContactFormTitle = ({form, isLoaded}) => {
     if (isLoaded) {
         return (
             <Fragment>
-                <h1 style={spacing} className="float-left mt-5">{form.title.rendered}</h1>
+                <h1 style={titleStyling} className="float-left mt-5">{form.title.rendered}</h1>
             </Fragment>
         );
     }
     return <Spinner/>
 }
 
-const spacing = {
+const titleStyling = {
     letterSpacing: "11px",
     opacity: "1.8",
     fontSize: "44px",

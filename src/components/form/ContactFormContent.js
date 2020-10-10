@@ -6,7 +6,7 @@ const ContactFormContent = ({form, isLoaded}) => {
         if (isLoaded) {
             return (
                 <Fragment>
-                    <div className="text-left" dangerouslySetInnerHTML={{__html: form.content.rendered}}/>
+                    <div style={contentStyling} dangerouslySetInnerHTML={{__html: form.content.rendered}}/>
                 </Fragment>
             );
         }
@@ -16,6 +16,11 @@ const ContactFormContent = ({form, isLoaded}) => {
 ContactFormContent.propTypes = {
     form: PropTypes.object.isRequired,
     isLoaded: PropTypes.bool.isRequired
+}
+
+const contentStyling = {
+    textAlign: "left",
+    opacity: "0.9"
 }
 
 export default ContactFormContent;

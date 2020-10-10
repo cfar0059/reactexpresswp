@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="changed number of rows for message field">
+    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Styling: Contact Form Title, Contact Form Inputs and Submit button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form/ContactFormContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/ContactFormContent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/form/ContactFormTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/ContactFormTitle.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -322,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602338297230</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Styling: Contact Form Title, Contact Form Inputs and Submit button">
+      <created>1602339274088</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1602339274088</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +370,8 @@
     <MESSAGE value="Installation and set up of dotenv and nodemailer." />
     <MESSAGE value="styling done to input fields." />
     <MESSAGE value="changed number of rows for message field" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed number of rows for message field" />
+    <MESSAGE value="Styling: Contact Form Title, Contact Form Inputs and Submit button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Styling: Contact Form Title, Contact Form Inputs and Submit button" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1697" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602252952053">
@@ -387,10 +394,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="596" y="0" key="SettingsEditor.inPresentationMode/0.0.2560.1040@0.0.2560.1040" timestamp="1602317762719" />
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602332705375">
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602339275396">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602332705375" />
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602339275396" />
     <state x="1627" y="253" width="585" height="534" key="find.popup" timestamp="1602327032661">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

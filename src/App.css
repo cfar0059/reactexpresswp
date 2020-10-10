@@ -73,6 +73,10 @@ nav.navbar .nav-custom-color{
   color: #4a4a4a;
 }
 
+.navbar-light button.navbar-toggler{
+    border: none;
+}
+
 /**
 Form
  */
