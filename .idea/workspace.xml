@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Updated spinner.gif to show transparency">
+    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="componentDidMount() hook has been moved to App to allow for better segregation of Components">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/form/Contactform.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/form/Contactform.js" afterDir="false" />
     </list>
@@ -146,7 +147,7 @@
       <workItem from="1602248446503" duration="4212000" />
       <workItem from="1602252809317" duration="13837000" />
       <workItem from="1602316645676" duration="1118000" />
-      <workItem from="1602317772774" duration="482000" />
+      <workItem from="1602317772774" duration="1359000" />
     </task>
     <task id="LOCAL-00001" summary="Added Client to App">
       <created>1602244732579</created>
@@ -225,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602317546455</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="componentDidMount() hook has been moved to App to allow for better segregation of Components">
+      <created>1602318384286</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602318384286</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +263,8 @@
     <MESSAGE value="Added Spinner" />
     <MESSAGE value="Contact Form data pulled from /api/forms and outputted through HTML" />
     <MESSAGE value="Updated spinner.gif to show transparency" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated spinner.gif to show transparency" />
+    <MESSAGE value="componentDidMount() hook has been moved to App to allow for better segregation of Components" />
+    <option name="LAST_COMMIT_MESSAGE" value="componentDidMount() hook has been moved to App to allow for better segregation of Components" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1697" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602252952053">
@@ -270,18 +279,18 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1700" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1602317786957" />
-    <state x="1768" y="222" key="RollbackChangesDialog" timestamp="1602318069726">
+    <state x="1768" y="222" key="RollbackChangesDialog" timestamp="1602318782789">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1768" y="222" key="RollbackChangesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1602318069726" />
+    <state x="1768" y="222" key="RollbackChangesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1602318782789" />
     <state x="596" y="0" key="SettingsEditor.inPresentationMode" timestamp="1602317762719">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="596" y="0" key="SettingsEditor.inPresentationMode/0.0.2560.1040@0.0.2560.1040" timestamp="1602317762719" />
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602317551404">
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602318385644">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602317551404" />
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602318385644" />
     <state x="1627" y="253" width="585" height="534" key="find.popup" timestamp="1602254207164">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

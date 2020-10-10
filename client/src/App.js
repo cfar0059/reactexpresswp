@@ -25,7 +25,7 @@ class App extends Component {
         return (
             <div className="App">
                 <Navbar/>
-                <div className="content">
+                <div className="content container">
                     <Contactform isLoaded={this.state.isLoaded} form={this.state.form} />
                 </div>
             </div>

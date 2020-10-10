@@ -6,7 +6,7 @@ const Contactform = ({form, isLoaded}) => {
         if (isLoaded) {
             return (
                 <Fragment>
-                    <h1>{form.title.rendered}</h1>
+                    <h1 className="float-left mt-5 ">{form.title.rendered}</h1>
                 </Fragment>
             );
         }
