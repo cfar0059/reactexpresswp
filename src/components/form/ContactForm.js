@@ -83,7 +83,7 @@ const ContactForm = () => {
                         as="textarea"
                         name="message"
                         value={state.message}
-                        rows="3"
+                        rows="5"
                         onChange={onInputChange}
                     />
                 </Form.Group>
