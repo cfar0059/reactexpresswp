@@ -1,8 +1,8 @@
 const express = require('express')
-const formRouter = express.Router()
+const importFormRouter = express.Router()
 const axios = require('axios')
 
-formRouter.get('/api/forms', (req, res) => {
+importFormRouter.get('/api/forms', (req, res) => {
     try {
         axios.get(`https://raketech.herokuapp.com/wp-json/wp/v2/forms/12`)
             .then(response => {
@@ -22,4 +22,4 @@ formRouter.get('/api/forms', (req, res) => {
     }
 })
 
-module.exports = formRouter
+module.exports = importFormRouter
