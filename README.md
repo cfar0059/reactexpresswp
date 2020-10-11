@@ -16,3 +16,9 @@ Form should be created in ReactJS, using NodeJS as a server on top of Wordpress 
 2. All code needs to be a code-versioned repo of your choice, with detailed commits;
 3. All work needs to be well commented;
 4. Commit frequently
+
+### Set up:
+1. Run - npm install
+2. Run - npm run-script build 
+3. Move to server folder - cd server
+4. Run - npm start
