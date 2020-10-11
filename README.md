@@ -22,3 +22,5 @@ Form should be created in ReactJS, using NodeJS as a server on top of Wordpress 
 2. Run - npm run-script build 
 3. Move to server folder - cd server
 4. Run - npm start
+
+Site run on - http://localhost:5000/
