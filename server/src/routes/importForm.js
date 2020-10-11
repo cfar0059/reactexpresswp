@@ -2,6 +2,9 @@ const express = require('express')
 const importFormRouter = express.Router()
 const axios = require('axios')
 
+/**
+ * Route /api/forms set to get data from CPT Forms within Wordpress
+ */
 importFormRouter.get('/api/forms', (req, res) => {
     try {
         axios.get(`https://raketech.herokuapp.com/wp-json/wp/v2/forms/12`)

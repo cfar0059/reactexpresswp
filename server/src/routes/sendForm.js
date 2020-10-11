@@ -2,6 +2,9 @@ const express = require('express')
 const sendFormRouter = express.Router()
 const transporter = require('../../config');
 
+/**
+ * Route /api/send used to send Form Data to designated email.
+ */
 sendFormRouter.post('/api/send', (req, res) => {
     try {
         const mailOptions = {

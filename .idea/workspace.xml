@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Added Front End Form Validation for name and email">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/ContactForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form/ContactFormTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/ContactFormTitle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/routes/importForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/importForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/routes/sendForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/sendForm.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,6 +159,7 @@
       <workItem from="1602329064182" duration="898000" />
       <workItem from="1602330012298" duration="6296000" />
       <workItem from="1602399772832" duration="1931000" />
+      <workItem from="1602418002672" duration="313000" />
     </task>
     <task id="LOCAL-00001" summary="Added Client to App">
       <created>1602244732579</created>
