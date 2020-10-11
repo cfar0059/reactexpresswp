@@ -11,6 +11,8 @@ const importformRouter = require('./src/routes/importForm')
 const sendFormRouter = require('./src/routes/sendForm')
 app.use('/', [importformRouter, sendFormRouter]);
 
-app.listen(3030, () => {
+const PORT = process.env.PORT || 3030
+
+app.listen(PORT, () => {
     console.log('server start on port 3030');
 });
