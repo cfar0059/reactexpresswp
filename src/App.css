@@ -114,17 +114,24 @@ form .form-group textarea.form-control{
 
 .form-content .wp-block-group:first-child .wp-block-group__inner-container p {
   font-family: monospace;
-  font-size: 20px;
+  font-size: 1.25rem;
   width: 80%;
 }
 
 /*
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
+  ##Screen =up to 991px
 */
 
-@media (max-width: 991px){
-  body:after{
+@media (max-width: 991px) {
+  body:after {
     height: 165%;
+  }
+
+  form .form-group .form-control {
+    width: 100%;
+  }
+
+  form .form-group textarea.form-control {
+    width: 100%;
   }
 }

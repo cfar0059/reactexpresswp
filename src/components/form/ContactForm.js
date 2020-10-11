@@ -176,9 +176,9 @@ const ContactForm = () => {
 };
 
 const resultStyle = {
-    fontSize: '15px',
+    fontSize: '1rem',
     textAlign: 'left',
-    marginTop: '15px'
+    marginTop: '1em'
 }
 
 const inputError = {
@@ -187,8 +187,8 @@ const inputError = {
     fontWeight: 'bold',
     float: 'left',
     backgroundColor: '#d24b4b',
-    fontSize: '14px',
-    padding: '4px'
+    fontSize: '0.875rem',
+    padding: '0.25em'
 }
 
 export default ContactForm;
