@@ -25,6 +25,7 @@ const ContactForm = () => {
      * Make Post Request using axios and pass form data as JSON object
      * If request successfull clear entered data and set state using API response
      * If request fails set error object in catch
+     * IMPORANT - Return state values to '' to avoid undefined error. !!!
      * @param event
      */
     const sendEmail = event => {
@@ -37,7 +38,18 @@ const ContactForm = () => {
                 .then(res => {
                     setResult(res.data);
                     console.log(res.data);
-                    setState({name: '', email: '', subject: '', message: ''});
+                    setState({
+                        name: '',
+                        email: '',
+                        subject: '',
+                        message: '',
+                        errors: {
+                            name: '',
+                            email: '',
+                            subject: '',
+                            message: '',
+                        }
+                    });
                 })
                 .catch(() => {
                     setResult({success: false, message: 'Something went wrong. Try again later'});
@@ -49,7 +61,9 @@ const ContactForm = () => {
     };
 
     /**
-     * Each input field has added onInputChange handler.
+     * Validate fields as per requirements
+     * Each input field has an added onInputChange handler.
+     * Sets State as per entered Values
      * @param event
      */
     const onInputChange = event => {
@@ -83,6 +97,10 @@ const ContactForm = () => {
         console.log(errors);
     };
 
+    /**
+     * Checks if form is valid.
+     * If Form has error preset set Validation to False.
+     */
     const validateForm = (errors) => {
         let valid = true;
         Object.values(errors).forEach(
@@ -91,6 +109,13 @@ const ContactForm = () => {
         );
         return valid;
     }
+
+    /**
+     * Checks if form is Valid and Input fields contain value.
+     * If so - Enable Button
+     * @type {boolean|number|number}
+     */
+    const isEnabled = validateForm(state.errors) && state.name.length > 0 && state.email.length && state.subject.length && state.message.length
 
     return (
         <div>
@@ -108,8 +133,8 @@ const ContactForm = () => {
                         value={state.name}
                         onChange={onInputChange}
                     />
-                    {/*{state.errors.name.length > 0 &&*/}
-                    {/*<span style={inputError}>{state.errors.name}</span>}*/}
+                    {state.errors.name.length > 0 &&
+                    <span style={inputError}>{state.errors.name}</span>}
                 </Form.Group>
                 <Form.Group controlId="email">
                     <Form.Label className="float-left form-field-opacity">Email</Form.Label>
@@ -119,8 +144,8 @@ const ContactForm = () => {
                         value={state.email}
                         onChange={onInputChange}
                     />
-                    {/*{state.errors.email.length > 0 &&*/}
-                    {/*<span style={inputError}>{state.errors.email}</span>}*/}
+                    {state.errors.email.length > 0 &&
+                    <span style={inputError}>{state.errors.email}</span>}
                 </Form.Group>
                 <Form.Group controlId="subject">
                     <Form.Label className="float-left form-field-opacity">Subject</Form.Label>
@@ -141,7 +166,8 @@ const ContactForm = () => {
                         onChange={onInputChange}
                     />
                 </Form.Group>
-                <Button className="float-left btn-success btn-custom" variant="primary" type="submit">
+                <Button disabled={!isEnabled} className="float-left btn-success btn-custom" variant="primary"
+                        type="submit">
                     CONTACT
                 </Button>
             </form>

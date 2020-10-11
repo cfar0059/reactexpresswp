@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Styling: To Result of Form.">
+    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Added Front End Form Validation for name and email">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/form/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/ContactForm.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,6 +158,7 @@
       <workItem from="1602317772774" duration="9331000" />
       <workItem from="1602329064182" duration="898000" />
       <workItem from="1602330012298" duration="6296000" />
+      <workItem from="1602399772832" duration="1931000" />
     </task>
     <task id="LOCAL-00001" summary="Added Client to App">
       <created>1602244732579</created>
@@ -340,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602342806801</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added Front End Form Validation for name and email">
+      <created>1602350176557</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1602350176557</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +368,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created form.js API Call" />
     <MESSAGE value="Created Component Contactform.  Fix implemented for formRouter to send response data." />
     <MESSAGE value="Added wordpress to app" />
     <MESSAGE value="Changed request call to point at forms Custom Post Type." />
@@ -384,7 +392,8 @@
     <MESSAGE value="Styling: Contact Form Title, Contact Form Inputs and Submit button" />
     <MESSAGE value="Styling: More styling to Form Title" />
     <MESSAGE value="Styling: To Result of Form." />
-    <option name="LAST_COMMIT_MESSAGE" value="Styling: To Result of Form." />
+    <MESSAGE value="Added Front End Form Validation for name and email" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Front End Form Validation for name and email" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1697" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602252952053">
@@ -399,22 +408,22 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="1700" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1602329385638" />
-    <state x="1768" y="222" key="RollbackChangesDialog" timestamp="1602327149223">
+    <state x="1768" y="222" key="RollbackChangesDialog" timestamp="1602353527180">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1768" y="222" key="RollbackChangesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1602327149223" />
+    <state x="1768" y="222" key="RollbackChangesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1602353527180" />
     <state x="596" y="0" key="SettingsEditor.inPresentationMode" timestamp="1602317762719">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="596" y="0" key="SettingsEditor.inPresentationMode/0.0.2560.1040@0.0.2560.1040" timestamp="1602317762719" />
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602342810201">
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602350177679">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602342810201" />
-    <state x="1627" y="253" width="585" height="534" key="find.popup" timestamp="1602327032661">
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602350177679" />
+    <state x="1627" y="253" width="601" height="534" key="find.popup" timestamp="1602350445717">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1627" y="253" width="585" height="534" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1602327032661" />
+    <state x="1627" y="253" width="601" height="534" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1602350445717" />
     <state x="1700" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1602346457335">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
