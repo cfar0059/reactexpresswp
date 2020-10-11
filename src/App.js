@@ -39,7 +39,7 @@ class App extends Component {
                     </div>
                     <div className="row">
                         <div className="col-lg-7 col-md-12">
-                            <ContactForm/>
+                            <ContactForm form={this.state.form}/>
                         </div>
                         <div className="col-lg-5 col-md-12 form-content">
                             <ContactFormContent isLoaded={this.state.isLoaded} form={this.state.form}/>

@@ -7,6 +7,8 @@ const transporter = require('../../config');
  */
 sendFormRouter.post('/api/send', (req, res) => {
     try {
+        console.log(req.body)
+
         const mailOptions = {
             from: req.body.email,
             to: 'dustin10@ethereal.email',
@@ -23,7 +25,7 @@ sendFormRouter.post('/api/send', (req, res) => {
             } else {
                 res.send({
                     success: true,
-                    message: 'Thanks for contacting us. We will get back to you shortly'
+                    message: req.body.response
                 });
             }
         });
