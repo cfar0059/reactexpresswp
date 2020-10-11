@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
 import {Form, Button} from 'react-bootstrap';
 import axios from 'axios';
+import PropTypes from 'prop-types';
 
-const ContactForm = () => {
+const ContactForm = ({form}) => {
     const [state, setState] = useState({
         name: '',
         email: '',
@@ -33,8 +34,11 @@ const ContactForm = () => {
         console.log(state);
 
         if (validateForm(state.errors)) {
+            //Response for custom thank you message
+            const response = form.acf.response;
+
             axios
-                .post('/api/send', {...state})
+                .post('/api/send', {...state, response})
                 .then(res => {
                     setResult(res.data);
                     console.log(res.data);
@@ -189,6 +193,10 @@ const inputError = {
     backgroundColor: '#d24b4b',
     fontSize: '0.875rem',
     padding: '0.25em'
+}
+
+ContactForm.propTypes = {
+    form: PropTypes.object.isRequired,
 }
 
 export default ContactForm;

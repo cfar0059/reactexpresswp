@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Added Front End Form Validation for name and email">
+    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Addition of react-responsive for media queries.  General Styling and minor alterations to CSS syntax.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/routes/sendForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/sendForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/form/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/ContactForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form/ContactFormTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/ContactFormTitle.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +123,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wp_react" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -161,6 +160,7 @@
       <workItem from="1602329064182" duration="898000" />
       <workItem from="1602330012298" duration="6296000" />
       <workItem from="1602399772832" duration="1931000" />
+      <workItem from="1602405047561" duration="3921000" />
     </task>
     <task id="LOCAL-00001" summary="Added Client to App">
       <created>1602244732579</created>
@@ -351,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602350176557</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Addition of react-responsive for media queries.  General Styling and minor alterations to CSS syntax.">
+      <created>1602404263086</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1602404263086</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +377,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created Component Contactform.  Fix implemented for formRouter to send response data." />
     <MESSAGE value="Added wordpress to app" />
     <MESSAGE value="Changed request call to point at forms Custom Post Type." />
     <MESSAGE value="Created Navbar.  Removed unnecessary files." />
@@ -395,9 +401,14 @@
     <MESSAGE value="Styling: More styling to Form Title" />
     <MESSAGE value="Styling: To Result of Form." />
     <MESSAGE value="Added Front End Form Validation for name and email" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Front End Form Validation for name and email" />
+    <MESSAGE value="Addition of react-responsive for media queries.  General Styling and minor alterations to CSS syntax." />
+    <option name="LAST_COMMIT_MESSAGE" value="Addition of react-responsive for media queries.  General Styling and minor alterations to CSS syntax." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="906" y="198" key="#Inspections" timestamp="1602406637553">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="906" y="198" key="#Inspections/0.0.2560.1040@0.0.2560.1040" timestamp="1602406637553" />
     <state x="1697" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602252952053">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -406,26 +417,26 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="496" y="86" key="DiffContextDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1602318068957" />
-    <state x="1700" y="275" key="FileChooserDialogImpl" timestamp="1602329385638">
+    <state x="1700" y="275" key="FileChooserDialogImpl" timestamp="1602407637368">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1700" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1602329385638" />
-    <state x="1768" y="222" key="RollbackChangesDialog" timestamp="1602402514200">
+    <state x="1700" y="275" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1602407637368" />
+    <state x="1768" y="222" key="RollbackChangesDialog" timestamp="1602408363468">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1768" y="222" key="RollbackChangesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1602402514200" />
+    <state x="1768" y="222" key="RollbackChangesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1602408363468" />
     <state x="596" y="0" key="SettingsEditor.inPresentationMode" timestamp="1602317762719">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="596" y="0" key="SettingsEditor.inPresentationMode/0.0.2560.1040@0.0.2560.1040" timestamp="1602317762719" />
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602350177679">
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602404292046">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602350177679" />
-    <state x="1627" y="253" width="601" height="534" key="find.popup" timestamp="1602403809152">
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602404292046" />
+    <state x="1627" y="253" width="601" height="534" key="find.popup" timestamp="1602405134771">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1627" y="253" width="601" height="534" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1602403809152" />
+    <state x="1627" y="253" width="601" height="534" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1602405134771" />
     <state x="1700" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1602402119624">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

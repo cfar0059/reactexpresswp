@@ -20,7 +20,7 @@ sendFormRouter.post('/api/send', (req, res) => {
             } else {
                 res.send({
                     success: true,
-                    message: 'Thanks for contacting us. We will get back to you shortly'
+                    message: req.body.response
                 });
             }
         });
