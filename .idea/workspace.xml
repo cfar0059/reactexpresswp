@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Fix - Re-implementation of Custom Thank you message">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/customers/customers.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/customers/customers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,6 +162,7 @@
       <workItem from="1602419463248" duration="125000" />
       <workItem from="1602419709593" duration="3417000" />
       <workItem from="1602425080224" duration="314000" />
+      <workItem from="1602426282034" duration="202000" />
     </task>
     <task id="LOCAL-00001" summary="Added Client to App">
       <created>1602244732579</created>
