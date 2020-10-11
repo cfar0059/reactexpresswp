@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Added Front End Form Validation for name and email">
+    <list default="true" id="1569f636-2c8e-49f9-bd97-076042e5531e" name="Default Changelist" comment="Fix - Re-implementation of Custom Thank you message">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/routes/sendForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/sendForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/form/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/form/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/customers/customers.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/customers/customers.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +161,8 @@
       <workItem from="1602399772832" duration="1931000" />
       <workItem from="1602418002672" duration="313000" />
       <workItem from="1602419463248" duration="125000" />
-      <workItem from="1602419709593" duration="341000" />
+      <workItem from="1602419709593" duration="3417000" />
+      <workItem from="1602425080224" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="Added Client to App">
       <created>1602244732579</created>
@@ -353,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602350176557</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Fix - Re-implementation of Custom Thank you message">
+      <created>1602420147784</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1602420147784</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +379,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created Component Contactform.  Fix implemented for formRouter to send response data." />
     <MESSAGE value="Added wordpress to app" />
     <MESSAGE value="Changed request call to point at forms Custom Post Type." />
     <MESSAGE value="Created Navbar.  Removed unnecessary files." />
@@ -397,7 +403,8 @@
     <MESSAGE value="Styling: More styling to Form Title" />
     <MESSAGE value="Styling: To Result of Form." />
     <MESSAGE value="Added Front End Form Validation for name and email" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Front End Form Validation for name and email" />
+    <MESSAGE value="Fix - Re-implementation of Custom Thank you message" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix - Re-implementation of Custom Thank you message" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1697" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602252952053">
@@ -420,10 +427,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="596" y="0" key="SettingsEditor.inPresentationMode/0.0.2560.1040@0.0.2560.1040" timestamp="1602317762719" />
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602350177679">
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602420149335">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602350177679" />
+    <state x="1512" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1602420149335" />
     <state x="1627" y="253" width="601" height="534" key="find.popup" timestamp="1602403809152">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
